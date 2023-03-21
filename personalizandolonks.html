@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="html.png" type="image/x-icon">
+    <title>Links</title>
+    <style>
+        /*
+        #  = id
+        .  = classe
+        :  = pseudo-classe
+        :: = pseud element
+        >  = children(item filho)
+        */
+        body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 2em;
+        }
+        a{
+            color: rgb(8, 0, 255);
+            text-decoration: none;
+            font-weight:bold ;
+        }
+        a:visited {
+            color: rgb(21, 151, 84);
+        }
+        a:hover{
+            color: rgb(131, 131, 220);
+        }
+        a:active{
+            color: chartreuse;
+        }
+        a::after{
+            content: ' #';
+            text-decoration: none;
+            font-weight:normal;
+            color: rgb(185, 209, 209);
+        }
+        a::before{
+            content: "@ ";
+            color: rgb(185, 209, 209);
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://gustavoguanabara.github.io" target="_blank" rel="externo">Repositorio Git Hub</a></li>
+        <li><a href="https://youtube.com/cursoemvideo" target="_blank" rel="externo">Canal do youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com" target="_blank" rel="externo">Site curso em video</a></li>
+        <li><a href="https://www.revistaoeste.com" target="_blank" rel="externo">Site revista Oeste</a></li>
+
+
+    </ul>
+  
+    
+</body>
+</html>
