@@ -59,13 +59,14 @@ section{
     line-height: 2em;
     padding-left: 40px;
     font-family: var(--fonte3);
-    font-size: 4vw;
+    font-size: 3vw;
      
 }
 
 section.imagem >p{
     display: inline-block;
-    background-color: rgb(29, 28, 28);
+    background-color: rgb(63, 57, 57);
+   
 
 
 }
@@ -78,8 +79,23 @@ section.imagem >p{
 
 .imagem{
 
-    background-color: rgb(33, 32, 32);
+    background-color: rgb(98, 85, 85);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgb(23, 20, 20);
+    background-attachment: fixed;
+}
+#img01{
+
+background-image: url(imagenscordel/background001.jpg);
+background-position: right center;
+
+
+}
+#img02{
+
+    background-image: url(imagenscordel/background002.jpg);
+    background-position: right center;
+
 }
 footer{
 
