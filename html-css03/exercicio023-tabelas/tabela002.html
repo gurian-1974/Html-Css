@@ -11,13 +11,25 @@
             font-weight: bold;
         }
 
+        header{
+            width: 500px;
+            height:100px;
+            
+
+        }
+
         thead,tfoot{
             background-color: gray;
             color: white;
             padding: 20px;
         }
-
+        thead >tr >th{
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
         table{
+            position: relative;
             margin: 50px;
             width: 400px;
             border-collapse: collapse;
@@ -32,7 +44,15 @@
             border: 2px solid blue;
             padding:10px;
         }
-        .num{
+        tbody >tr:nth-child(2n)/* posso tmbem usar odd impar ou par even*/{
+            background-color: rgb(215, 238, 245);
+        }
+        tbody >tr:nth-child(even){
+
+            color: rgb(255, 166, 0)
+        }
+
+        td.num{
             color: blue;
             font-weight: bold;
             text-align: right;
@@ -44,7 +64,10 @@
     <title>Tabelas</title>
 </head>
 <body>
-    <h1>Uso de Tabelas Grandes</h1>
+    <header>
+        <h1>Uso de Tabelas Grandes</h1>
+        
+    </header>
 
     <table>
         <caption>
@@ -93,6 +116,8 @@
             <tr><td>Sergipe </td>	<td class="num">13.066.910</td></tr>
             <tr><td>Roraima </td>	<td class="num">13.066.910</td></tr>
             <tr><td>Goias</td>	<td class="num">3.998.910</td></tr>
+            <tr><td>Acre</td>	<td class="num">4.228.910</td></tr>
+            <tr><td>Esprito Santo</td>	<td class="num">3.998.910</td></tr>
             
         </tbody>
         <tfoot>
@@ -103,6 +128,110 @@
                 </tr>
         </tfoot>        
     </table>
-    
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, quaerat? Inventore officia itaque magni voluptas repellat, odit facere eveniet 
+        fugiat consectetur? Dolor temporibus iste reiciendis odio nobis, eos perferendis veritat
+        is! Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus explicabo
+         deleniti officiis! Illum amet rerum cupiditate dicta quis harum enim ducimus 
+         mollitia, earum, nostrum possimus perspiciatis saepe molestias, recusandae labore!Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, quaerat? Inventore officia itaque magni voluptas repellat, odit facere eveniet 
+         fugiat consectetur? Dolor temporibus iste reiciendis odio nobis, eos perferendis veritat
+         is! Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus explicabo
+          deleniti officiis! Illum amet rerum cupiditate dicta quis harum enim ducimus 
+          mollitia, earum, nostrum possimus perspiciatis saepe molestias, recusandae labore!
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, quaerat? Inventore officia itaque magni voluptas repellat, odit facere eveniet 
+        fugiat consectetur? Dolor temporibus iste reiciendis odio nobis, eos perferendis veritat
+        is! Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus explicabo
+         deleniti officiis! Illum amet rerum cupiditate dicta quis harum enim ducimus 
+         mollitia, earum, nostrum possimus perspiciatis saepe molestias, recusandae labore!
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, quaerat? Inventore officia itaque magni voluptas repellat, odit facere eveniet 
+        fugiat consectetur? Dolor temporibus iste reiciendis odio nobis, eos perferendis veritat
+        is! Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus explicabo
+         deleniti officiis! Illum amet rerum cupiditate dicta quis harum enim ducimus 
+         mollitia, earum, nostrum possimus perspiciatis saepe molestias, recusandae labore!Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, quaerat? Inventore officia itaque magni voluptas repellat, odit facere eveniet 
+         fugiat consectetur? Dolor temporibus iste reiciendis odio nobis, eos perferendis veritat
+         is! Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus explicabo
+          deleniti officiis! Illum amet rerum cupiditate dicta quis harum enim ducimus 
+          mollitia, earum, nostrum possimus perspiciatis saepe molestias, recusandae labore!
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, quaerat? Inventore officia itaque magni voluptas repellat, odit facere eveniet 
+        fugiat consectetur? Dolor temporibus iste reiciendis odio nobis, eos perferendis veritat
+        is! Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus explicabo
+         deleniti officiis! Illum amet rerum cupiditate dicta quis harum enim ducimus 
+         mollitia, earum, nostrum possimus perspiciatis saepe molestias, recusandae labore!
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, quaerat? Inventore officia itaque magni voluptas repellat, odit facere eveniet 
+        fugiat consectetur? Dolor temporibus iste reiciendis odio nobis, eos perferendis veritat
+        is! Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus explicabo
+         deleniti officiis! Illum amet rerum cupiditate dicta quis harum enim ducimus 
+         mollitia, earum, nostrum possimus perspiciatis saepe molestias, recusandae labore!Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, quaerat? Inventore officia itaque magni voluptas repellat, odit facere eveniet 
+         fugiat consectetur? Dolor temporibus iste reiciendis odio nobis, eos perferendis veritat
+         is! Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus explicabo
+          deleniti officiis! Illum amet rerum cupiditate dicta quis harum enim ducimus 
+          mollitia, earum, nostrum possimus perspiciatis saepe molestias, recusandae labore!
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, quaerat? Inventore officia itaque magni voluptas repellat, odit facere eveniet 
+        fugiat consectetur? Dolor temporibus iste reiciendis odio nobis, eos perferendis veritat
+        is! Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus explicabo
+         deleniti officiis! Illum amet rerum cupiditate dicta quis harum enim ducimus 
+         mollitia, earum, nostrum possimus perspiciatis saepe molestias, recusandae labore!
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, quaerat? Inventore officia itaque magni voluptas repellat, odit facere eveniet 
+        fugiat consectetur? Dolor temporibus iste reiciendis odio nobis, eos perferendis veritat
+        is! Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus explicabo
+         deleniti officiis! Illum amet rerum cupiditate dicta quis harum enim ducimus 
+         mollitia, earum, nostrum possimus perspiciatis saepe molestias, recusandae labore!Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, quaerat? Inventore officia itaque magni voluptas repellat, odit facere eveniet 
+         fugiat consectetur? Dolor temporibus iste reiciendis odio nobis, eos perferendis veritat
+         is! Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus explicabo
+          deleniti officiis! Illum amet rerum cupiditate dicta quis harum enim ducimus 
+          mollitia, earum, nostrum possimus perspiciatis saepe molestias, recusandae labore!
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, quaerat? Inventore officia itaque magni voluptas repellat, odit facere eveniet 
+        fugiat consectetur? Dolor temporibus iste reiciendis odio nobis, eos perferendis veritat
+        is! Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus explicabo
+         deleniti officiis! Illum amet rerum cupiditate dicta quis harum enim ducimus 
+         mollitia, earum, nostrum possimus perspiciatis saepe molestias, recusandae labore!
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, quaerat? Inventore officia itaque magni voluptas repellat, odit facere eveniet 
+        fugiat consectetur? Dolor temporibus iste reiciendis odio nobis, eos perferendis veritat
+        is! Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus explicabo
+         deleniti officiis! Illum amet rerum cupiditate dicta quis harum enim ducimus 
+         mollitia, earum, nostrum possimus perspiciatis saepe molestias, recusandae labore!Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, quaerat? Inventore officia itaque magni voluptas repellat, odit facere eveniet 
+         fugiat consectetur? Dolor temporibus iste reiciendis odio nobis, eos perferendis veritat
+         is! Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus explicabo
+          deleniti officiis! Illum amet rerum cupiditate dicta quis harum enim ducimus 
+          mollitia, earum, nostrum possimus perspiciatis saepe molestias, recusandae labore!
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, quaerat? Inventore officia itaque magni voluptas repellat, odit facere eveniet 
+        fugiat consectetur? Dolor temporibus iste reiciendis odio nobis, eos perferendis veritat
+        is! Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus explicabo
+         deleniti officiis! Illum amet rerum cupiditate dicta quis harum enim ducimus 
+         mollitia, earum, nostrum possimus perspiciatis saepe molestias, recusandae labore!
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, quaerat? Inventore officia itaque magni voluptas repellat, odit facere eveniet 
+        fugiat consectetur? Dolor temporibus iste reiciendis odio nobis, eos perferendis veritat
+        is! Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus explicabo
+         deleniti officiis! Illum amet rerum cupiditate dicta quis harum enim ducimus 
+         mollitia, earum, nostrum possimus perspiciatis saepe molestias, recusandae labore!Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, quaerat? Inventore officia itaque magni voluptas repellat, odit facere eveniet 
+         fugiat consectetur? Dolor temporibus iste reiciendis odio nobis, eos perferendis veritat
+         is! Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus explicabo
+          deleniti officiis! Illum amet rerum cupiditate dicta quis harum enim ducimus 
+          mollitia, earum, nostrum possimus perspiciatis saepe molestias, recusandae labore!
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, quaerat? Inventore officia itaque magni voluptas repellat, odit facere eveniet 
+        fugiat consectetur? Dolor temporibus iste reiciendis odio nobis, eos perferendis veritat
+        is! Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus explicabo
+         deleniti officiis! Illum amet rerum cupiditate dicta quis harum enim ducimus 
+         mollitia, earum, nostrum possimus perspiciatis saepe molestias, recusandae labore!
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, quaerat? Inventore officia itaque magni voluptas repellat, odit facere eveniet 
+        fugiat consectetur? Dolor temporibus iste reiciendis odio nobis, eos perferendis veritat
+        is! Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus explicabo
+         deleniti officiis! Illum amet rerum cupiditate dicta quis harum enim ducimus 
+         mollitia, earum, nostrum possimus perspiciatis saepe molestias, recusandae labore!Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, quaerat? Inventore officia itaque magni voluptas repellat, odit facere eveniet 
+         fugiat consectetur? Dolor temporibus iste reiciendis odio nobis, eos perferendis veritat
+         is! Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus explicabo
+          deleniti officiis! Illum amet rerum cupiditate dicta quis harum enim ducimus 
+          mollitia, earum, nostrum possimus perspiciatis saepe molestias, recusandae labore!
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, quaerat? Inventore officia itaque magni voluptas repellat, odit facere eveniet 
+        fugiat consectetur? Dolor temporibus iste reiciendis odio nobis, eos perferendis veritat
+        is! Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus explicabo
+         deleniti officiis! Illum amet rerum cupiditate dicta quis harum enim ducimus 
+         mollitia, earum, nostrum possimus perspiciatis saepe molestias, recusandae labore!
+    </p>
 </body>
 </html>
