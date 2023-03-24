@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            
+            font-weight: bold;
+        }
+
+        thead,tfoot{
+            background-color: gray;
+            color: white;
+            padding: 20px;
+        }
+
+        table{
+            margin: 50px;
+            width: 400px;
+            border-collapse: collapse;
+        }
+
+        caption{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            padding: 20px;
+            font-size: 2em;
+        }
+        td,th{
+            border: 2px solid blue;
+            padding:10px;
+        }
+        .num{
+            color: blue;
+            font-weight: bold;
+            text-align: right;
+        }
+        h1{
+            margin: 50px;
+        }
+    </style>
+    <title>Tabelas</title>
+</head>
+<body>
+    <h1>Uso de Tabelas Grandes</h1>
+
+    <table>
+        <caption>
+            População do Brasil
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td >Sao Paulo</td>
+                <td class="num">45 919 050</td>
+            </tr>
+            <tr>
+                <td >Minas Gerais</td>
+                <td class="num">21 168 784</td>
+            </tr>
+            <tr>
+                <td >Rio de Janeiro</td>
+                <td class="num">17 458 268</td>
+            </tr>
+            <tr>
+                <td >Parana</td>
+                <td class="num">12 785 127</td>
+            </tr>
+            <tr><td>Bahia </td>	<td class="num">13.066.910</td></tr>
+            <tr><td>Rio Grande Sul</td><td class="num">10.181.256</td></tr>
+            <tr><td>Pernanbuco </td><td class="num">9.558.545</td></tr>
+            <tr><td>Ceara</td>	<td class="num">7066.910</td></tr>
+            <tr><td>Para </td>	<td class="num">866.910</td></tr>
+            <tr><td>Maranhao </td>	<td class="num">9.066.910</td></tr>
+            <tr><td>Santa Catarina </td>	<td class="num">656.910</td></tr>
+            <tr><td>Amapa</td></td>	<td class="num">13.066.910</td></tr>
+            <tr><td>Paraiba </td>	<td class="num">13.066.910</td></tr>
+            <tr><td>Espirito Santo </td>	<td class="num">13.066.910</td></tr>
+            <tr><td>Amazonas</td>	<td class="num">13.066.910</td></tr>
+            <tr><td>rio Grande do Norte</td>	<td class="num">13.066.910</td></tr>
+            <tr><td>Alagoas</td>	<td class="num">13.066.910</td></tr>
+            <tr><td>Piaui</td>	<td class="num">13.066.910</td></tr>
+            <tr><td>Mato Grosso</td>	<td class="num">13.066.910</td></tr>
+            <tr><td>Distrito Federal</td>	<td class="num">13.066.910</td></tr>
+            <tr><td>Mato Grosso do Sul </td>	<td class="num">13.066.910</td></tr>
+            <tr><td>Sergipe </td>	<td class="num">13.066.910</td></tr>
+            <tr><td>Roraima </td>	<td class="num">13.066.910</td></tr>
+            <tr><td>Goias</td>	<td class="num">3.998.910</td></tr>
+            
+        </tbody>
+        <tfoot>
+                <tr>
+                    <th scope="row"> Total de Habitantes</th>
+                    <td class="num"><strong>220.287.146</strong>
+
+                </tr>
+        </tfoot>        
+    </table>
+    
+</body>
+</html>
